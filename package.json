@@ -1,0 +1,17 @@
+{
+  "name": "ethereum-wallet-generator",
+  "version": "1.0.0",
+  "description": "Generador de billeteras Ethereum con búsqueda de saldos y generación de semillas mnemotécnicas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "search-simple": "node search-simple.js",
+    "gen-test": "node gen-seeds.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.5",
+    "sqlite3": "^5.1.7"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
