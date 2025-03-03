@@ -134,6 +134,15 @@ La opción 1.2 del menú permite ejecutar múltiples instancias del script de b�
 - **Uso de Recursos**: No sobrecargues tu sistema ejecutando demasiadas tareas en paralelo. Un buen punto de partida es usar un número de tareas igual al número de núcleos de tu CPU.
 - **Resultados Concurrentes**: Las salidas de las tareas pueden mezclarse debido a la naturaleza asíncrona de las ejecuciones.
 
+## Limitaciones
+
+- **Probabilidad de Éxito**: Debido al vasto espacio de direcciones Ethereum (2^160), la probabilidad de encontrar una dirección con saldo es extremadamente baja.
+- **Uso de Recursos**: Ejecutar múltiples tareas en paralelo puede consumir muchos recursos del sistema. Usa esta función con precaución.
+
+## Ética y Legalidad
+
+Este proyecto tiene fines educativos y de investigación. Buscar activamente direcciones con saldo o intentar acceder a fondos que no te pertenecen puede ser ilegal y poco ético. Asegúrate de usar este software de manera responsable y dentro de los límites legales.
+
 ### Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
 1. Haz un fork del repositorio.
